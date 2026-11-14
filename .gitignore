@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Temporary notebook exports and PDF renderings
+*.nbconvert.ipynb
+notebook/*.html
+output/*.aux
+output/*.log
+output/*.tex
+output/_build/
+
+# OS files
+.DS_Store
+
+# Tool caches
+.cache/
+.ruff_cache/
+.mypy_cache/
